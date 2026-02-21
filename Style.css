@@ -24,3 +24,32 @@ section:hover{
   transform: translateY(-3px);
   transition: 0.3s;
 }
+nav{
+  background:#3E2723;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  margin:0;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+nav a:hover{
+  color:#C8A165;
+}
+
+.logo{
+  margin:0;
+}
