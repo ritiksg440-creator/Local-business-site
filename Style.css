@@ -31,6 +31,9 @@ nav{
   justify-content:space-between;
   align-items:center;
   padding:15px 20px;
+  position:sticky;
+  top:0;
+  z-index:1000;
 }
 
 nav ul{
@@ -52,4 +55,15 @@ nav a:hover{
 
 .logo{
   margin:0;
+}
+.hero-btn{
+  margin-top:15px;
+  padding:10px 20px;
+  border:none;
+  background:#6D4C41;
+  color:white;
+  border-radius:6px;
+  cursor:pointer;
+  box-shadow:0 4px 12px rgba(0,0,0,0.3);
+
 }
